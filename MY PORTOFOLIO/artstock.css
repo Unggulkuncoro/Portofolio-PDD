@@ -1,0 +1,108 @@
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body    {
+    background-color:dimgrey;
+    background-position: center;
+    background-size: cover;
+    font-family:'Times New Roman', Times, serif;
+    color: whitesmoke;
+    height: 2600px;
+
+    /*  Sembunyikan Scrollbar  */
+    -ms-overflow-style: none;
+    scrollbar-width: none;}
+    body::-webkit-scrollbar{
+    display: none;}
+.judul {
+    text-align: center;
+}
+
+.judul h1   {
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    font-size: 50px;
+    color: blanchedalmond;
+}
+
+.container  {
+    width: 1200px;
+    margin: 10px auto;
+    padding: 10px;
+    box-sizing: content-box;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+}
+
+.clear {
+    clear: left;
+}
+
+.container .kotak1, .kotak2, .kotak3, .kotak4, .kotak5, .kotak6  {
+    width: 1200px;
+    height: 700px;
+    float: left;
+    line-height: 350px;
+    margin: 10px auto;
+    text-transform: uppercase;
+    color: transparent;
+}
+
+.container .kotak1  {
+    background-image: url(gunung.jpg);
+    background-position: 0 0;
+    line-height: 300px;
+    background-size: cover;
+}
+
+.container .kotak2  {
+    background-image: url(kendy.jpg);
+    background-position: 0 0;
+    line-height: 300px;
+    background-size: cover;
+}
+
+.container .kotak3  {
+    background-image: url(me.jpg);
+    background-position: 0 0;
+    line-height: 300px;
+    background-size: cover;
+}
+
+.container .kotak4  {
+    background-image: url(wah.jpg);
+    background-position: 0 0;
+    line-height: 300px;
+    background-size: cover;
+}
+
+.container .kotak5  {
+    background-image: url(skinik.jpg);
+    background-position: 0 0;
+    line-height: 300px;
+    background-size: cover;
+}
+
+.container .kotak6  {
+    background-image: url(corner.jpg);
+    background-position: 0 0;
+    line-height: 300px;
+    background-size: cover;
+}
+
+.akhir h2 {
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+    font-size: 30px;
+    color: blanchedalmond;
+}
+
+
+

@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    background: radial-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(me.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.menuAtas {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.menuAtas ul li {
+    display: inline-block;
+    margin: 20px 5px;
+}
+
+.menuAtas ul li a {
+    text-decoration: none;
+    color: blanchedalmond;
+    border-radius: 15px;
+    display: inline-block;
+    width: 100px;
+    padding: 5px 5px;
+}
+
+.menuAtas ul li a:hover {
+    background-color: white;
+    color: grey;
+    transition: .5s;
+    font-weight: 500;
+}
+
+.utama {
+    text-align: center;
+    margin: 120px auto;
+}
+.utama h1 {
+    font-size: 75px;
+    margin: auto;
+    width: 75%;
+    color:blanchedalmond;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.utama h2 {
+    font-size: 25px;
+    font-style: italic;
+    color: blanchedalmond;
+    margin: 0 0 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.utama h3 {
+    font-size: 20px;
+    color: blanchedalmond;
+    margin: 0 0 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.utama p {
+    font-size: 20px;
+    font-style: italic;
+    color: blanchedalmond;
+    margin: 0 0 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
